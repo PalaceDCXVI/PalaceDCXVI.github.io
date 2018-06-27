@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    <div>
+
+      <header class="header-background">
+
+        <div class="container mx-auto px-0 mb-0 clearfix header-text">
+          <h1 class="h0 inline-block col-12 sm-width-full py-4 mt-3 header-title">{{ site.title }}</h1>
+
+          <div class="clearfix mb-3 py-0">
+            
+            <div class="col-3 sm-width-full left border-top-thin mt-3 mt-lg-0 ml-lg-2">
+              <a class="h2 align-middle link-primary header-link mr-2"  href="mailto:{{site.email}}">
+                Email
+              </a>
+            </div>
+
+            <div class="col-3 sm-width-full left border-top-thin mt-3 mt-lg-0 ml-lg-2">
+              <a class="h2 align-middle link-primary header-link mr-2" href="/assets/CV_JordanCulver.pdf">
+                CV
+              </a>
+            </div>
+
+            <div class="col-3 sm-width-full left border-top-thin mt-3 mt-lg-0 ml-lg-2">
+              <a class="h2 align-middle link-primary header-link mr-2" href="{{site.github_baseurl}}">
+                Github
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </header>
+
+      <div class="container mx-auto px-0 py-1">
+        <Table style="width:100%">
+          <tr>
+            <th><h1>School</h1></th>
+            <th><h1>Personal</h1></th>
+            <th><h1>Work</h1></th>
+          </tr>
+
+          <tr>
+
+              <td valign="top" Width="33.3%" class="border-top-thin px-1">
+                <ul>
+                  {% for post in site.posts %}
+                    {% if post.projectType == "School" %}
+    
+                      {% include post_block.html %}
+    
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+              </td>
+
+            <td valign="top" Width="33.3%" class="border-top-thin px-1">
+              <ul>
+                {% for post in site.posts %}
+                  {% if post.projectType == "Personal" %}
+
+                    {% include post_block.html %}
+
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </td>
+
+            <td valign="top" Width="33.3%" class="border-top-thin px-1">
+                <ul>
+                  {% for post in site.posts %}
+                    {% if post.projectType == "Work" %}
+    
+                      {% include post_block.html %}
+    
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+              </td>
+
+          </tr>
+
+        </Table>
+      </div>
+
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
