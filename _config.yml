@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Jordan Culver's Portfolio
+title: Claire Culver's Portfolio
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "palacedcxvi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # github_repo: jekyll # the GitHub repo name for your project
 github_username: PalaceDCXVI
 github_baseurl: "https://github.com/PalaceDCXVI/"
-email: JordanMCulver@gmail.com
+email: ClaireMCulver@gmail.com
 
 
 # Optional social link, you can choose from the following options:
