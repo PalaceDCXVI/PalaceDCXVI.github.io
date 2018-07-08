@@ -1,4 +1,4 @@
-# Swiss Jekyll Theme
+# I've used the Swiss Jekyll theme for building my website.
 
 [![Gem Version](https://badge.fury.io/rb/jekyll-swiss.svg)](https://badge.fury.io/rb/jekyll-swiss)
 
