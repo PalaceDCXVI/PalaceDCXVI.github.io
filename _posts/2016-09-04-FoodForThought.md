@@ -12,13 +12,13 @@ A mobile educational game that was made for some folks at the University of Onta
 
 I was responsible for many different features, including gameplay, UI elements, saving and loading and various small programatic details.
 
-The game features several different gameplay modes, one of which I was responsible for is below.
+The game features several different gameplay modes, one of which I was partly responsible for is below.
 <video width="700" controls loop>
   <source src="/assets/Videos/Work/FoodForThought/FoodForThought_FoodDropGameplay.mp4" type="video/mp4">
 </video>
 
 Food items here are collected and stored so that the player can learn more about them and how they fit into a balanced diet.
-The items are stored in this log screen:
+The items are stored in this log screen, the entirety of which became my primary responsibility some time into the project:
 <video width="700" controls loop>
   <source src="/assets/Videos/Work/FoodForThought/FoodForThought_LogScreen.mp4" type="video/mp4">
 </video>
