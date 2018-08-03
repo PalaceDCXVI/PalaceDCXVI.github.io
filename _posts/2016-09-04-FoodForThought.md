@@ -8,7 +8,7 @@ date:   2017-09-04
 projectType: Work
 ---
 
-A mobile educational game that was made for some folks at the University of Ontario Institute of Technology's Health Sciences department. 
+A mobile educational game that was made for some folks at the University of Ontario Institute of Technology's Health Sciences department. Made in Unity.
 
 I was responsible for many different features, including gameplay, UI elements, saving and loading and various small programatic details.
 
